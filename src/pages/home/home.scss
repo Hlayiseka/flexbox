@@ -1,0 +1,141 @@
+page-home {
+    .box1{
+        display: flex;
+        justify-content: space-between;
+        background-color: bisque;
+    }
+    .box1 > div {
+        margin: 0.5em;
+    }
+    .child1{
+        flex: 4;
+        background-color: aqua;
+    }
+    .child2{
+        flex: 1;
+        background-color: lightgrey;
+    }
+    .child3{
+        flex: 1;
+        background-color: lightblue;
+    }
+   .child4{
+        flex: 1;
+        background-color: lightcoral;
+   }
+}
+   
+.box2{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+
+    .son1{
+       flex: 1;
+       align-items: center;
+       background-color: skyblue;
+   }
+   .son2{
+       width: 40%;
+       height: 15%;
+       background-color: burlywood;
+       margin: auto;
+   }
+   .son3{
+    width: 30%;
+    height: 15%;
+    margin: auto;
+    background-color: rgb(109, 73, 27);
+   }
+   
+}
+.box3{
+    display: flex;
+    margin: auto;
+    background-color: lightgreen;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    bottom: 48vh;
+    margin-left: 80px;
+    flex-direction: column;
+    
+    img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        // background-color: aqua;
+    }
+    .web1{
+        width: 400px;
+        height: 40px;
+        margin: auto;
+        margin-top: -9vh;
+        margin-right: 40px;
+        background-color: lightcyan;
+    }
+    .web2{
+        background-color: black;
+        width: 400px;
+        margin: auto;
+        height: 40px;
+    }
+    .web3{
+        background-color: chocolate;
+        width: 400px;
+        margin: auto;
+        height: 40px;
+    }
+      
+} 
+.box4{
+    display: flex;
+    background-color: cadetblue;
+    height: 20vh;
+    justify-content: space-between;
+    // flex-direction: column;
+
+
+    .sub1{
+        width: 120px;
+        height: 120px;
+        background-color: aliceblue;
+        margin: 2em;
+    }
+    .sub2{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(55, 80, 102);
+        margin: 2em;
+    }
+    .sub3{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(50, 21, 117);
+        margin: 2em;
+    }
+    .sub4{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(38, 51, 43);
+        margin: 2em;
+    }
+    .sub5{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(112, 48, 67);
+        margin: 2em;
+    }
+    .sub6{
+        width: 120px;
+        height: 120px;
+        background-color: rgb(177, 128, 54);
+        margin: 2em;
+    }
+    // .sub7{
+    //     width: 100px;
+    //     height: 100px;
+    //     background-color: rgb(177, 128, 54);
+        
+    // }
+}
